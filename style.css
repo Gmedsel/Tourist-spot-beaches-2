@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+	right: 110px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-family: Sans-Serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 5vh;
+}
+body {
+    background: url('wsand.jpg');
+    background-size: cover;
+}
+.gallery {
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.gallery-section {
+	width: 100%;
+}
+.gallery-section .gallery-wrap {
+	padding-top: 10px;
+}
+.gallery-section .gallery-wrap .gallery-images{
+	width: 100%;
+		margin: 0 auto;
+		padding-top: 50px;
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		grid-gap: 20px;
+		height: 100px;
+		width: 70%;
+}
+	.gallery-section .gallery-wrap .gallery-images .gallery{
+		width: 100%;
+		position:relative;
+	}
+	.gallery-section .gallery-wrap .gallery-images .gallery .image-section{
+		width: 100%;
+		
+	}
+	 .gallery-section .gallery-wrap .gallery-images .gallery .image-section .img{
+		 width: 100%;
+		 height: auto;
+		 border: 1px solid #ddd;
+		 padding: 5px;
+		 display: block;
+		 height: 200px;
+		width: 100%;
+		
+		
+	 }
+	 
+ 
+
+	 .gallery-section .gallery-wrap .gallery-images .gallery .caption {
+		 width:85%;
+		 height: 95px;
+		 position: absolute;
+		 padding: 10px;
+		 top: 0; 
+		 left: 27px;
+		 
+		 display: flex;
+		 justify-content: center;
+		 align-items: center;
+		 align-items: center;
+		 flex-direction: column;
+		 background: rgba(0,0,0,0.5);
+		 color: #fff;
+		 opacity: 0;
+		 transition: opacity .5s;
+		 color: skyblue;
+		 font-weight: bold;
+		 
+		 
+		 
+	 }
+	 .gallery-section .gallery-wrap .gallery-images .gallery .caption:hover {
+		 opacity: 1;
+		 
+		 
+		
+	 }
+	 .gallery-section .gallery-wrap .gallery-images .gallery .caption p {
+		 font-size: 20px;
+		 color: #101517;
+		 background: skyblue;
+		 font-weight: 500px;
+	 }
+	 	 .gallery-section .gallery-wrap .gallery-images .gallery .caption h3{
+	 	     
+	    font-size: 20px;
+		 color: white;
+		 background: transparent;
+	 	 }
